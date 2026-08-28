@@ -4,25 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mueblería AD Financiera | Muebles de Inversión y Financiamiento</title>
-    <meta name="description" content="Mueblería AD Financiera ofrece muebles de alta calidad con opciones de financiamiento flexible. Encuentre muebles para oficina, hogar y proyectos comerciales con asesoría personalizada.">
+    <title>Financiera de Beneficios para Todos | Todo sobre Financiamiento</title>
+    <meta name="description" content="Financiera de Beneficios para Todos ofrece asesoría financiera integral, soluciones de crédito, financiamiento personalizado y planes de pago flexibles para todo tipo de necesidades.">
+    
+    <!-- Google AdSense Verification -->
+    <meta name="google-adsense-account" content="ca-pub-6766480973419025">
+    <!--
+    google.com, pub-6766480973419025, DIRECT, f08c47fec0942fa0
+    -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         /* ============================================================
-           CONFIGURACIÓN - Nueva paleta: Deep Forest Luxury
+           CONFIGURACIÓN - Paleta: Navy & Gold
            ============================================================ */
         :root {
-            --color-primary: #0F1F0F;
-            --color-secondary: #1A2E1A;
-            --color-accent: #C4956A;
-            --color-accent-light: #D9AE8C;
-            --color-text: #F5F0E8;
-            --color-text-dark: #0F1F0F;
-            --color-bg-light: #F8F4EC;
+            --color-primary: #0A1628;
+            --color-secondary: #0F1F3A;
+            --color-accent: #D4AF37;
+            --color-accent-light: #E5C158;
+            --color-text: #EAEAEA;
+            --color-text-dark: #0A1628;
+            --color-bg-light: #F5F0E8;
             --color-white: #FFFFFF;
-            --color-gold: #C9A84C;
             --color-warning: #E6A817;
             --font-heading: 'Playfair Display', serif;
             --font-body: 'Inter', sans-serif;
@@ -59,9 +65,8 @@
         h1 { font-size: clamp(2.8rem, 6vw, 5rem); }
         h2 { font-size: clamp(2.2rem, 4vw, 3.2rem); margin-bottom: 0.5rem; }
         h3 { font-size: clamp(1.4rem, 2.5vw, 2rem); }
-        .subtitle { font-size: 1.2rem; font-weight: 300; color: rgba(245,240,232,0.8); }
+        .subtitle { font-size: 1.2rem; font-weight: 300; color: rgba(234,234,234,0.8); }
         .text-accent { color: var(--color-accent); }
-        .text-gold { color: var(--color-gold); }
         .text-center { text-align: center; }
         .section-tag {
             display: inline-block;
@@ -95,7 +100,7 @@
         }
         .btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 12px 32px rgba(196, 149, 106, 0.35);
+            box-shadow: 0 12px 32px rgba(212, 175, 55, 0.35);
         }
         .btn-outline {
             background: transparent;
@@ -129,7 +134,7 @@
             background: transparent;
         }
         header.scrolled {
-            background: rgba(15, 31, 15, 0.95);
+            background: rgba(10, 22, 40, 0.95);
             backdrop-filter: blur(10px);
             box-shadow: 0 4px 30px rgba(0,0,0,0.2);
             padding: 10px 0;
@@ -141,7 +146,7 @@
         }
         .logo {
             font-family: var(--font-heading);
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-weight: 700;
             color: var(--color-text);
             letter-spacing: -0.5px;
@@ -234,7 +239,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(15, 31, 15, 0.78);
+            background: rgba(10, 22, 40, 0.78);
             z-index: 1;
         }
         .hero-content {
@@ -254,7 +259,7 @@
         .bg-dark { background: var(--color-primary); color: var(--color-text); }
         .bg-light { background: var(--color-bg-light); }
         .bg-accent-light { background: var(--color-accent-light); }
-        .bg-muebles { background: var(--color-secondary); color: var(--color-text); }
+        .bg-financiera { background: var(--color-secondary); color: var(--color-text); }
 
         /* ============================================================
            QUIENES SOMOS
@@ -270,7 +275,7 @@
             overflow: hidden;
             box-shadow: var(--shadow-premium);
             height: 400px;
-            background: url('https://images.unsplash.com/photo-1618220179428-22790b461013?w=800&q=80') center/cover no-repeat;
+            background: url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&q=80') center/cover no-repeat;
         }
         .about-text p { margin-bottom: 20px; color: #4a4a5a; }
 
@@ -302,13 +307,13 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(15, 31, 15, 0.85);
+            background: rgba(10, 22, 40, 0.85);
             z-index: 0;
         }
         .mv-card .content { position: relative; z-index: 1; color: var(--color-text); }
         .mv-card .content h3 { margin-bottom: 12px; }
-        .mv-mision { background-image: url('https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80'); }
-        .mv-vision { background-image: url('https://images.unsplash.com/photo-1618220179428-22790b461013?w=800&q=80'); }
+        .mv-mision { background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80'); }
+        .mv-vision { background-image: url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80'); }
 
         /* ============================================================
            HISTORIA
@@ -345,7 +350,7 @@
         .timeline-item .desc { color: #5a5a6a; }
 
         /* ============================================================
-           SERVICIOS / PRODUCTOS
+           SERVICIOS
            ============================================================ */
         .services-grid {
             display: grid;
@@ -482,10 +487,94 @@
             border-radius: 16px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.04);
         }
-        .testimonial-card .stars { color: var(--color-gold); font-size: 1.2rem; letter-spacing: 2px; }
+        .testimonial-card .stars { color: var(--color-accent); font-size: 1.2rem; letter-spacing: 2px; }
         .testimonial-card blockquote { font-style: italic; margin: 16px 0; color: #4a4a5a; }
         .testimonial-card .author { font-weight: 600; }
         .testimonial-card .role { font-size: 0.85rem; color: #8a8a9a; }
+
+        /* ============================================================
+           AVISO LEGAL - DESTACADO
+           ============================================================ */
+        .legal-notice {
+            background: rgba(212, 175, 55, 0.08);
+            border-left: 4px solid var(--color-warning);
+            padding: 20px 28px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        .legal-notice h4 {
+            font-family: var(--font-heading);
+            font-size: 1.1rem;
+            color: var(--color-warning);
+            margin-bottom: 6px;
+        }
+        .legal-notice p {
+            font-size: 0.85rem;
+            color: #5a5a6a;
+            line-height: 1.6;
+        }
+        .legal-notice strong {
+            color: var(--color-text-dark);
+        }
+
+        /* ============================================================
+           ADSENSE VERIFICATION SECTION
+           ============================================================ */
+        .adsense-verification {
+            background: var(--color-secondary);
+            color: var(--color-text);
+            padding: 30px 0;
+            border-top: 2px solid var(--color-accent);
+            border-bottom: 2px solid var(--color-accent);
+        }
+        .adsense-verification .inner {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .adsense-verification .label {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--color-accent);
+        }
+        .adsense-verification .code-block {
+            background: rgba(0,0,0,0.3);
+            padding: 14px 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            color: var(--color-accent-light);
+            border: 1px solid rgba(255,255,255,0.06);
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        .adsense-verification .code-block .highlight {
+            color: var(--color-accent);
+        }
+        .adsense-verification .copy-btn {
+            background: var(--color-accent);
+            color: var(--color-primary);
+            border: none;
+            padding: 8px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            align-self: flex-start;
+        }
+        .adsense-verification .copy-btn:hover {
+            background: var(--color-accent-light);
+        }
+        .adsense-verification .info-text {
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+        .adsense-verification .info-text a {
+            color: var(--color-accent);
+            text-decoration: underline;
+        }
 
         /* ============================================================
            GOOGLE ADS SECTION
@@ -563,7 +652,7 @@
             border-radius: 30px;
             font-size: 0.8rem;
             font-weight: 500;
-            border: 1px solid rgba(196, 149, 106, 0.2);
+            border: 1px solid rgba(212, 175, 55, 0.2);
             transition: var(--transition-smooth);
         }
         .ads-block .keywords .keyword:hover {
@@ -581,50 +670,6 @@
             border-radius: 30px;
             margin-right: 8px;
             letter-spacing: 0.3px;
-        }
-
-        /* ============================================================
-           VALORES
-           ============================================================ */
-        .values-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 24px;
-        }
-        .value-card {
-            background: var(--color-white);
-            padding: 30px 24px;
-            border-radius: 16px;
-            text-align: center;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
-            transition: var(--transition-smooth);
-        }
-        .value-card:hover { transform: translateY(-6px); }
-        .value-card .icon { font-size: 2.4rem; display: block; margin-bottom: 12px; }
-
-        /* ============================================================
-           AVISO LEGAL - DESTACADO
-           ============================================================ */
-        .legal-notice {
-            background: rgba(196, 149, 106, 0.08);
-            border-left: 4px solid var(--color-warning);
-            padding: 20px 28px;
-            border-radius: 8px;
-            margin: 30px 0;
-        }
-        .legal-notice h4 {
-            font-family: var(--font-heading);
-            font-size: 1.1rem;
-            color: var(--color-warning);
-            margin-bottom: 6px;
-        }
-        .legal-notice p {
-            font-size: 0.85rem;
-            color: #5a5a6a;
-            line-height: 1.6;
-        }
-        .legal-notice strong {
-            color: var(--color-text-dark);
         }
 
         /* ============================================================
@@ -671,6 +716,14 @@
             gap: 60px;
         }
         .contact-info p { margin-bottom: 12px; display: flex; align-items: center; gap: 12px; }
+        .contact-info .campaign-id { 
+            background: var(--color-accent-light);
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            color: var(--color-primary);
+            margin-top: 20px;
+        }
         .form-group { margin-bottom: 20px; }
         .form-group label { display: block; font-weight: 600; margin-bottom: 6px; }
         .form-group input, .form-group textarea, .form-group select {
@@ -686,7 +739,7 @@
         .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
             outline: none;
             border-color: var(--color-accent);
-            box-shadow: 0 0 0 3px rgba(196, 149, 106, 0.15);
+            box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
         }
         .form-group .checkbox-group {
             display: flex;
@@ -717,7 +770,7 @@
         .footer-grid h4 { margin-bottom: 16px; }
         .footer-grid ul { list-style: none; }
         .footer-grid ul li { margin-bottom: 10px; }
-        .footer-grid ul li a { color: rgba(245,240,232,0.7); transition: var(--transition-smooth); }
+        .footer-grid ul li a { color: rgba(234,234,234,0.7); transition: var(--transition-smooth); }
         .footer-grid ul li a:hover { color: var(--color-accent); }
         .footer-bottom {
             border-top: 1px solid rgba(255,255,255,0.06);
@@ -728,11 +781,12 @@
             flex-wrap: wrap;
             gap: 16px;
             font-size: 0.85rem;
-            color: rgba(245,240,232,0.5);
+            color: rgba(234,234,234,0.5);
         }
+        .footer-bottom .campaign-id { color: var(--color-accent); font-weight: 600; }
         .footer-legal {
             font-size: 0.7rem;
-            color: rgba(245,240,232,0.4);
+            color: rgba(234,234,234,0.4);
             margin-top: 12px;
             line-height: 1.6;
         }
@@ -850,7 +904,6 @@
             .testimonials-grid { grid-template-columns: 1fr 1fr; }
             .gallery-grid { grid-template-columns: 1fr 1fr; }
             .team-grid { grid-template-columns: 1fr 1fr; }
-            .values-grid { grid-template-columns: 1fr 1fr; }
             .footer-grid { grid-template-columns: 1fr 1fr; }
             .nav-links {
                 position: fixed;
@@ -873,7 +926,6 @@
             .services-grid, .testimonials-grid, .gallery-grid, .team-grid { grid-template-columns: 1fr; }
             .process-steps { grid-template-columns: 1fr; }
             .stats-grid { grid-template-columns: 1fr 1fr; }
-            .values-grid { grid-template-columns: 1fr; }
             .hero-content h1 { font-size: 2.6rem; }
             .section-padding { padding: 60px 0; }
             .footer-grid { grid-template-columns: 1fr; }
@@ -891,14 +943,15 @@
     <!-- ===== HEADER ===== -->
     <header id="header">
         <div class="container nav-container">
-            <a href="#" class="logo">Mueblería <span>AD</span> Financiera</a>
+            <a href="#" class="logo">Financiera <span>Beneficios</span></a>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#servicios">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#proceso">Proceso</a></li>
                 <li><a href="#historia">Historia</a></li>
                 <li><a href="#testimonios">Testimonios</a></li>
                 <li><a href="#google-ads">Google Ads</a></li>
+                <li><a href="#verificacion">Verificación</a></li>
                 <li><a href="#contacto">Contacto</a></li>
                 <li><a href="#contacto" class="btn btn-primary-custom" style="background:var(--color-accent);color:var(--color-primary);padding:10px 28px;border-radius:50px;font-weight:600;">Financiamiento</a></li>
             </ul>
@@ -911,19 +964,19 @@
     <!-- ===== HERO ===== -->
     <section class="hero" id="inicio">
         <div class="hero-slider">
-            <div class="slide active" style="background-image:url('https://images.unsplash.com/photo-1618220179428-22790b461013?w=1600&q=80');"></div>
-            <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1616137466211-f939a420be84?w=1600&q=80');"></div>
-            <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1600&q=80');"></div>
-            <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=80');"></div>
+            <div class="slide active" style="background-image:url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1600&q=80');"></div>
+            <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80');"></div>
+            <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1600&q=80');"></div>
+            <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80');"></div>
         </div>
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <span class="section-tag" style="border-color:var(--color-accent);color:var(--color-accent);">Muebles de Inversión y Financiamiento</span>
-            <h1>Estilo que <span class="text-accent">invierte en su hogar</span></h1>
-            <p class="subtitle">En Mueblería AD Financiera ofrecemos muebles de alta calidad con opciones de financiamiento flexible para que pueda transformar su espacio sin preocupaciones.</p>
+            <span class="section-tag" style="border-color:var(--color-accent);color:var(--color-accent);">Todo sobre Financiamiento</span>
+            <h1>Beneficios que <span class="text-accent">transforman su futuro</span></h1>
+            <p class="subtitle">En Financiera de Beneficios para Todos ofrecemos asesoría financiera integral y soluciones de crédito personalizadas para hacer realidad sus proyectos.</p>
             <div class="hero-buttons">
                 <a href="#nosotros" class="btn">Conocer más</a>
-                <a href="#contacto" class="btn btn-outline">Solicitar financiamiento</a>
+                <a href="#contacto" class="btn btn-outline">Solicitar asesoría</a>
             </div>
         </div>
     </section>
@@ -933,25 +986,47 @@
         <div class="container">
             <div class="text-center reveal">
                 <span class="section-tag">Quiénes Somos</span>
-                <h2>Excelencia en <span class="text-accent">muebles y financiamiento</span></h2>
-                <p style="max-width:680px;margin:12px auto 0;color:#5a5a6a;">Mueblería AD Financiera es una empresa especializada en la venta de muebles de alta calidad con opciones de financiamiento flexibles para todo tipo de clientes.</p>
+                <h2>Excelencia en <span class="text-accent">financiamiento y asesoría</span></h2>
+                <p style="max-width:680px;margin:12px auto 0;color:#5a5a6a;">Financiera de Beneficios para Todos es una empresa especializada en asesoría financiera, ofreciendo soluciones de crédito y planes de financiamiento personalizados.</p>
             </div>
 
             <!-- ===== AVISO LEGAL DESTACADO ===== -->
             <div class="legal-notice reveal">
                 <h4>⚠️ Aviso Importante</h4>
-                <p><strong>Mueblería AD Financiera</strong> es una empresa de asesoría independiente. No somos un banco ni representamos a ninguna entidad bancaria oficial. Los productos y servicios financieros son ofrecidos exclusivamente por las entidades bancarias autorizadas. Las aprobaciones de crédito están sujetas a la evaluación de cada entidad financiera.</p>
+                <p><strong>Financiera de Beneficios para Todos</strong> es una empresa de asesoría independiente. No somos un banco ni representamos a ninguna entidad bancaria oficial. Los productos y servicios financieros son ofrecidos exclusivamente por las entidades bancarias autorizadas. Las aprobaciones de crédito están sujetas a la evaluación de cada entidad financiera.</p>
             </div>
 
             <div class="about-grid" style="margin-top:30px;">
                 <div class="about-text reveal">
-                    <p><strong>Mueblería AD Financiera</strong> es una empresa de muebles y financiamiento fundada en 2016, con presencia en múltiples territorios. Nos especializamos en ofrecer muebles de diseño, calidad y durabilidad, con planes de financiamiento accesibles para que todos puedan disfrutar de un hogar u oficina elegante y funcional.</p>
-                    <p>Nuestro equipo está conformado por profesionales con amplia experiencia en diseño de interiores, atención al cliente y asesoría financiera. Trabajamos con las mejores marcas y proveedores para garantizar la calidad de nuestros productos y la satisfacción de nuestros clientes.</p>
-                    <p>Más de 500 clientes han confiado en nosotros para amueblar sus espacios. Nuestro compromiso es brindar soluciones que generen valor real y contribuyan al bienestar de nuestros clientes.</p>
+                    <p><strong>Financiera de Beneficios para Todos</strong> es una empresa de asesoría financiera fundada en 2018, con presencia en múltiples territorios. Nos especializamos en ofrecer soluciones de crédito y financiamiento personalizadas, con un enfoque en la transparencia y la satisfacción de nuestros clientes.</p>
+                    <p>Nuestro equipo está conformado por profesionales con amplia experiencia en finanzas, crédito y asesoría personalizada. Trabajamos con las mejores entidades bancarias para garantizar las mejores condiciones de financiamiento para nuestros clientes.</p>
+                    <p>Más de 600 clientes han confiado en nosotros para hacer realidad sus proyectos. Nuestro compromiso es brindar soluciones que generen valor real y contribuyan al bienestar financiero de nuestros clientes.</p>
                     <a href="#contacto" class="btn" style="margin-top:12px;">Hablemos de su proyecto</a>
                 </div>
                 <div class="about-image reveal"></div>
             </div>
+        </div>
+    </section>
+
+    <!-- ===== ADSENSE VERIFICATION ===== -->
+    <section id="verificacion" class="adsense-verification">
+        <div class="container inner">
+            <div class="label">🔑 Verificación de propiedad del sitio - Google AdSense</div>
+            <p class="info-text">
+                Para verificar su sitio y prepararlo para mostrar anuncios, copie el siguiente código y cree un archivo <strong>ads.txt</strong> en la raíz de su sitio web.
+                <a href="https://www.google.com/adsense" target="_blank">Más información sobre ads.txt →</a>
+            </p>
+            <div class="code-block">
+                <span class="highlight">google.com</span>, pub-6766480973419025, DIRECT, f08c47fec0942fa0
+            </div>
+            <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+                <button class="copy-btn" id="copyAdsTxt">📋 Copiar código</button>
+                <span class="info-text" style="font-size:0.75rem; opacity:0.6;">Publíquelo en: <strong>/ads.txt</strong></span>
+            </div>
+            <p class="info-text" style="margin-top:8px;">
+                ✅ El sitio ya incluye la metaetiqueta de verificación: 
+                <code style="background:rgba(0,0,0,0.3);padding:2px 10px;border-radius:4px;font-size:0.7rem;">ca-pub-6766480973419025</code>
+            </p>
         </div>
     </section>
 
@@ -964,24 +1039,24 @@
             </div>
             <div class="values-grid" style="margin-top:48px;">
                 <div class="value-card reveal">
-                    <span class="icon">🪑</span>
-                    <h4>Calidad</h4>
-                    <p style="color:#5a5a6a;">Ofrecemos muebles de la más alta calidad y durabilidad.</p>
-                </div>
-                <div class="value-card reveal">
                     <span class="icon">💰</span>
-                    <h4>Financiamiento</h4>
-                    <p style="color:#5a5a6a;">Planes flexibles y accesibles para todos los presupuestos.</p>
+                    <h4>Transparencia</h4>
+                    <p style="color:#5a5a6a;">Información clara y honesta en cada proceso financiero.</p>
                 </div>
                 <div class="value-card reveal">
                     <span class="icon">🤝</span>
                     <h4>Confianza</h4>
-                    <p style="color:#5a5a6a;">Transparencia y honestidad en cada transacción.</p>
+                    <p style="color:#5a5a6a;">Relaciones basadas en la honestidad y el cumplimiento.</p>
                 </div>
                 <div class="value-card reveal">
-                    <span class="icon">🎨</span>
-                    <h4>Diseño</h4>
-                    <p style="color:#5a5a6a;">Estilos modernos y atemporales para cada espacio.</p>
+                    <span class="icon">⭐</span>
+                    <h4>Excelencia</h4>
+                    <p style="color:#5a5a6a;">Buscamos la mejor solución financiera para cada cliente.</p>
+                </div>
+                <div class="value-card reveal">
+                    <span class="icon">🎯</span>
+                    <h4>Compromiso</h4>
+                    <p style="color:#5a5a6a;">Dedicación total al éxito financiero de nuestros clientes.</p>
                 </div>
             </div>
         </div>
@@ -999,14 +1074,14 @@
                     <div class="overlay"></div>
                     <div class="content">
                         <h3>Misión</h3>
-                        <p>Ofrecer muebles de alta calidad con opciones de financiamiento accesibles, transformando espacios y mejorando la calidad de vida de nuestros clientes con estilo, funcionalidad y confianza.</p>
+                        <p>Brindar asesoría financiera de excelencia, ofreciendo soluciones de crédito y financiamiento que se adapten a las necesidades de cada cliente, con transparencia y compromiso.</p>
                     </div>
                 </div>
                 <div class="mv-card mv-vision reveal">
                     <div class="overlay"></div>
                     <div class="content">
                         <h3>Visión</h3>
-                        <p>Ser la mueblería financiera de referencia, reconocida por la calidad de sus productos, su innovación en diseño y sus soluciones de financiamiento que hacen posible el hogar soñado para todos.</p>
+                        <p>Ser la empresa de asesoría financiera de referencia, reconocida por su calidad, transparencia y por hacer posible los sueños de nuestros clientes a través del financiamiento.</p>
                     </div>
                 </div>
             </div>
@@ -1019,76 +1094,76 @@
             <div class="text-center reveal">
                 <span class="section-tag">Nuestra Historia</span>
                 <h2 style="color:var(--color-text);">Trayectoria de <span class="text-accent">éxito</span></h2>
-                <p style="max-width:640px;margin:12px auto 0;color:rgba(255,255,255,0.6);">Más de 8 años transformando espacios en todo el mundo.</p>
+                <p style="max-width:640px;margin:12px auto 0;color:rgba(255,255,255,0.6);">Más de 7 años haciendo realidad proyectos en todo el mundo.</p>
             </div>
             <div class="timeline reveal" style="max-width:800px;margin:40px auto 0;color:var(--color-text);">
                 <div class="timeline-item">
-                    <div class="year">2016</div>
-                    <div class="title">Fundación de Mueblería AD Financiera</div>
-                    <div class="desc" style="color:rgba(255,255,255,0.6);">Nace la empresa con la visión de ofrecer muebles de calidad con financiamiento accesible.</div>
-                </div>
-                <div class="timeline-item">
                     <div class="year">2018</div>
-                    <div class="title">Expansión del portafolio</div>
-                    <div class="desc" style="color:rgba(255,255,255,0.6);">Incorporamos líneas de muebles para oficina y diseño de interiores, ampliando nuestra oferta de valor.</div>
+                    <div class="title">Fundación de Financiera de Beneficios</div>
+                    <div class="desc" style="color:rgba(255,255,255,0.6);">Nace la empresa con la visión de ofrecer asesoría financiera accesible para todos.</div>
                 </div>
                 <div class="timeline-item">
                     <div class="year">2020</div>
-                    <div class="title">Digitalización</div>
-                    <div class="desc" style="color:rgba(255,255,255,0.6);">Implementamos plataformas digitales para ventas y financiamiento, mejorando la experiencia de nuestros clientes.</div>
+                    <div class="title">Expansión de servicios</div>
+                    <div class="desc" style="color:rgba(255,255,255,0.6);">Incorporamos créditos hipotecarios, automotrices y personales, ampliando nuestra oferta.</div>
                 </div>
                 <div class="timeline-item">
-                    <div class="year">2023</div>
+                    <div class="year">2022</div>
+                    <div class="title">Digitalización</div>
+                    <div class="desc" style="color:rgba(255,255,255,0.6);">Implementamos plataformas digitales para solicitudes de crédito y seguimiento.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">2024</div>
                     <div class="title">Reconocimiento sectorial</div>
-                    <div class="desc" style="color:rgba(255,255,255,0.6);">Recibimos el premio a la Excelencia en Muebles y Financiamiento, destacándonos como referentes en el sector.</div>
+                    <div class="desc" style="color:rgba(255,255,255,0.6);">Recibimos el premio a la Excelencia en Asesoría Financiera.</div>
                 </div>
                 <div class="timeline-item">
                     <div class="year">2025</div>
                     <div class="title">Expansión internacional</div>
-                    <div class="desc" style="color:rgba(255,255,255,0.6);">Llevamos nuestra experiencia a nuevos mercados, ofreciendo muebles de calidad a nivel global.</div>
+                    <div class="desc" style="color:rgba(255,255,255,0.6);">Llevamos nuestra experiencia a nuevos mercados internacionales.</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== SERVICIOS / PRODUCTOS ===== -->
+    <!-- ===== SERVICIOS ===== -->
     <section id="servicios" class="section-padding bg-white">
         <div class="container">
             <div class="text-center reveal">
-                <span class="section-tag">Nuestros Productos</span>
-                <h2>Muebles de <span class="text-accent">alta calidad</span></h2>
-                <p style="max-width:640px;margin:12px auto 0;color:#5a5a6a;">Descubra nuestra colección de muebles para todos los espacios, con opciones de financiamiento flexibles.</p>
+                <span class="section-tag">Nuestros Servicios</span>
+                <h2>Soluciones de <span class="text-accent">financiamiento</span></h2>
+                <p style="max-width:640px;margin:12px auto 0;color:#5a5a6a;">Descubra nuestras opciones de crédito y financiamiento diseñadas para todo tipo de necesidades.</p>
             </div>
             <div class="services-grid" style="margin-top:48px;">
                 <div class="service-card reveal">
-                    <span class="icon">🛋️</span>
-                    <h3>Salas y Living</h3>
-                    <p>Muebles de sala de alta calidad: sofás, mesas de centro, sillones y accesorios para crear espacios acogedores.</p>
+                    <span class="icon">🏠</span>
+                    <h3>Créditos Hipotecarios</h3>
+                    <p>Financiamiento para la compra de vivienda, construcción o remodelación con las mejores tasas del mercado.</p>
                 </div>
                 <div class="service-card reveal">
-                    <span class="icon">🛏️</span>
-                    <h3>Recámaras</h3>
-                    <p>Camas, armarios, tocadores y muebles para dormitorio con estilo y funcionalidad para un descanso perfecto.</p>
-                </div>
-                <div class="service-card reveal">
-                    <span class="icon">🍽️</span>
-                    <h3>Comedores</h3>
-                    <p>Mesas, sillas y muebles auxiliares para disfrutar de momentos especiales en familia y con amigos.</p>
+                    <span class="icon">🚗</span>
+                    <h3>Créditos Automotrices</h3>
+                    <p>Financiamiento para la compra de vehículos nuevos y usados con planes de pago flexibles.</p>
                 </div>
                 <div class="service-card reveal">
                     <span class="icon">💼</span>
-                    <h3>Oficinas</h3>
-                    <p>Escritorios, sillas ejecutivas, estanterías y muebles para crear espacios de trabajo productivos y elegantes.</p>
+                    <h3>Créditos Personales</h3>
+                    <p>Soluciones de financiamiento para proyectos personales, viajes, estudios y más.</p>
                 </div>
                 <div class="service-card reveal">
-                    <span class="icon">📚</span>
-                    <h3>Muebles de Almacenamiento</h3>
-                    <p>Libreros, armarios, credenzas y soluciones de almacenamiento para mantener sus espacios organizados.</p>
+                    <span class="icon">🏢</span>
+                    <h3>Créditos Empresariales</h3>
+                    <p>Financiamiento para pymes, emprendedores y proyectos comerciales.</p>
                 </div>
                 <div class="service-card reveal">
-                    <span class="icon">🎨</span>
-                    <h3>Diseño a Medida</h3>
-                    <p>Muebles personalizados y soluciones de diseño adaptadas a sus necesidades y espacios específicos.</p>
+                    <span class="icon">📊</span>
+                    <h3>Consolidación de Deudas</h3>
+                    <p>Unifique sus deudas en un solo crédito con condiciones favorables.</p>
+                </div>
+                <div class="service-card reveal">
+                    <span class="icon">🎯</span>
+                    <h3>Asesoría Financiera</h3>
+                    <p>Acompañamiento personalizado para tomar las mejores decisiones financieras.</p>
                 </div>
             </div>
         </div>
@@ -1100,48 +1175,48 @@
             <div class="text-center reveal">
                 <span class="section-tag">Cómo Trabajamos</span>
                 <h2>Metodología de <span class="text-accent">excelencia</span></h2>
-                <p style="max-width:640px;margin:12px auto 0;color:#5a5a6a;">Un proceso estructurado que garantiza la mejor experiencia de compra y financiamiento.</p>
+                <p style="max-width:640px;margin:12px auto 0;color:#5a5a6a;">Un proceso simple y transparente para obtener el financiamiento que necesita.</p>
             </div>
             <div class="process-steps">
                 <div class="step reveal">
                     <span class="num">01</span>
-                    <h4>Selección</h4>
-                    <p style="color:#5a5a6a;">Explore nuestra amplia colección de muebles de alta calidad.</p>
+                    <h4>Consulta</h4>
+                    <p style="color:#5a5a6a;">Programe una asesoría gratuita para conocer sus necesidades.</p>
                 </div>
                 <div class="step reveal">
                     <span class="num">02</span>
-                    <h4>Asesoría</h4>
-                    <p style="color:#5a5a6a;">Reciba orientación personalizada para elegir los muebles perfectos.</p>
+                    <h4>Análisis</h4>
+                    <p style="color:#5a5a6a;">Evaluamos su perfil financiero para ofrecerle las mejores opciones.</p>
                 </div>
                 <div class="step reveal">
                     <span class="num">03</span>
-                    <h4>Financiamiento</h4>
-                    <p style="color:#5a5a6a;">Aproveche nuestras opciones de financiamiento flexibles.</p>
+                    <h4>Selección</h4>
+                    <p style="color:#5a5a6a;">Elegimos juntos la solución de crédito más adecuada para usted.</p>
                 </div>
                 <div class="step reveal">
                     <span class="num">04</span>
-                    <h4>Entrega</h4>
-                    <p style="color:#5a5a6a;">Reciba sus muebles con instalación y garantía de calidad.</p>
+                    <h4>Aprobación</h4>
+                    <p style="color:#5a5a6a;">Acompañamos el proceso de aprobación con la entidad bancaria.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ===== ESTADÍSTICAS ===== -->
-    <section id="estadisticas" class="section-padding bg-muebles">
+    <section id="estadisticas" class="section-padding bg-financiera">
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-item reveal">
-                    <div class="number" data-count="500">0</div>
+                    <div class="number" data-count="600">0</div>
                     <div class="label">Clientes satisfechos</div>
                 </div>
                 <div class="stat-item reveal">
-                    <div class="number" data-count="8">0</div>
+                    <div class="number" data-count="7">0</div>
                     <div class="label">Años de experiencia</div>
                 </div>
                 <div class="stat-item reveal">
-                    <div class="number" data-count="1000">0</div>
-                    <div class="label">Productos vendidos</div>
+                    <div class="number" data-count="2000">0</div>
+                    <div class="label">Créditos gestionados</div>
                 </div>
                 <div class="stat-item reveal">
                     <div class="number" data-count="98">0</div>
@@ -1156,15 +1231,15 @@
         <div class="container">
             <div class="text-center reveal">
                 <span class="section-tag">Galería</span>
-                <h2>Nuestros <span class="text-accent">espacios</span></h2>
+                <h2>Nuestros <span class="text-accent">momentos</span></h2>
             </div>
             <div class="gallery-grid" style="margin-top:40px;">
-                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80');"></div>
-                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1616137466211-f939a420be84?w=600&q=80');"></div>
-                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=600&q=80');"></div>
-                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80');"></div>
-                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80');"></div>
-                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&q=80');"></div>
+                <div class="gallery-item reveal" style="background-image:url('https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=600&q=80');"></div>
             </div>
         </div>
     </section>
@@ -1175,26 +1250,26 @@
             <div class="text-center reveal">
                 <span class="section-tag">Equipo</span>
                 <h2>Profesionales <span class="text-accent">de confianza</span></h2>
-                <p style="max-width:640px;margin:12px auto 0;color:#5a5a6a;">Un equipo dedicado a ofrecer la mejor experiencia en muebles y financiamiento.</p>
+                <p style="max-width:640px;margin:12px auto 0;color:#5a5a6a;">Expertos en finanzas comprometidos con su éxito financiero.</p>
             </div>
             <div class="team-grid" style="margin-top:48px;">
                 <div class="team-card reveal">
                     <div class="avatar" style="background-image:url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80');"></div>
                     <h4>Victor Alfonso Nova León</h4>
                     <div class="role">CEO & Fundador</div>
-                    <p style="color:#5a5a6a;font-size:0.9rem;margin-top:8px;">Visión estratégica y liderazgo en el mundo de los muebles y el financiamiento.</p>
+                    <p style="color:#5a5a6a;font-size:0.9rem;margin-top:8px;">Visión estratégica y liderazgo en el mundo financiero.</p>
                 </div>
                 <div class="team-card reveal">
                     <div class="avatar" style="background-image:url('https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=200&q=80');"></div>
                     <h4>María del Pilar Rojas</h4>
-                    <div class="role">Directora de Diseño</div>
-                    <p style="color:#5a5a6a;font-size:0.9rem;margin-top:8px;">Experta en diseño de interiores y tendencias de mobiliario.</p>
+                    <div class="role">Directora de Asesoría</div>
+                    <p style="color:#5a5a6a;font-size:0.9rem;margin-top:8px;">Experta en créditos y soluciones financieras personalizadas.</p>
                 </div>
                 <div class="team-card reveal">
                     <div class="avatar" style="background-image:url('https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=200&q=80');"></div>
                     <h4>Andrés Felipe Sánchez</h4>
-                    <div class="role">Director Financiero</div>
-                    <p style="color:#5a5a6a;font-size:0.9rem;margin-top:8px;">Especialista en financiamiento y soluciones de pago para clientes.</p>
+                    <div class="role">Analista Financiero</div>
+                    <p style="color:#5a5a6a;font-size:0.9rem;margin-top:8px;">Especialista en evaluación de perfiles crediticios.</p>
                 </div>
             </div>
         </div>
@@ -1210,19 +1285,19 @@
             <div class="testimonials-grid" style="margin-top:48px;">
                 <div class="testimonial-card reveal">
                     <div class="stars">★★★★★</div>
-                    <blockquote>“Mueblería AD Financiera transformó mi hogar con muebles de excelente calidad. El financiamiento fue fácil y rápido, y el servicio al cliente excepcional.”</blockquote>
+                    <blockquote>“Financiera de Beneficios me ayudó a conseguir el crédito hipotecario que necesitaba. Su asesoría fue clara y el proceso fue muy rápido.”</blockquote>
                     <div class="author">Carlos Eduardo Ramírez</div>
                     <div class="role">Cliente satisfecho</div>
                 </div>
                 <div class="testimonial-card reveal">
                     <div class="stars">★★★★★</div>
-                    <blockquote>“Compré los muebles para mi oficina y quedé encantado. La calidad es increíble y el proceso de financiamiento fue muy transparente.”</blockquote>
+                    <blockquote>“Gracias a ellos pude financiar mi nuevo vehículo con excelentes condiciones. Los recomiendo ampliamente.”</blockquote>
                     <div class="author">Laura Vanessa Gómez</div>
                     <div class="role">Cliente corporativo</div>
                 </div>
                 <div class="testimonial-card reveal">
                     <div class="stars">★★★★★</div>
-                    <blockquote>“El diseño de los muebles es único y moderno. Además, el financiamiento me permitió hacer realidad el hogar que siempre quise.”</blockquote>
+                    <blockquote>“Su asesoría financiera me ayudó a consolidar mis deudas y mejorar mi historial crediticio. Muy profesionales.”</blockquote>
                     <div class="author">Ana Lucía Giraldo</div>
                     <div class="role">Cliente recurrente</div>
                 </div>
@@ -1236,28 +1311,28 @@
             <div class="text-center reveal">
                 <span class="section-tag">Google Ads</span>
                 <h2>Recursos para <span class="text-accent">campañas publicitarias</span></h2>
-                <p style="max-width:680px;margin:12px auto 0;color:#5a5a6a;">Optimice sus anuncios con estos títulos, descripciones y palabras clave diseñados para Mueblería AD Financiera.</p>
+                <p style="max-width:680px;margin:12px auto 0;color:#5a5a6a;">Optimice sus anuncios con estos títulos, descripciones y palabras clave diseñados para Financiera de Beneficios para Todos.</p>
             </div>
             <div class="google-ads-grid">
                 <!-- TÍTULOS -->
                 <div class="ads-block reveal">
                     <h3>📌 15 Títulos para Google Ads <span class="badge">H1</span></h3>
                     <ul>
-                        <li><span class="num">01</span> Mueblería AD Financiera</li>
-                        <li><span class="num">02</span> Muebles con Financiamiento</li>
-                        <li><span class="num">03</span> Compra tus Muebles</li>
-                        <li><span class="num">04</span> Muebles de Calidad</li>
-                        <li><span class="num">05</span> Financiamiento para Muebles</li>
-                        <li><span class="num">06</span> Muebles Modernos</li>
-                        <li><span class="num">07</span> Diseño de Interiores</li>
-                        <li><span class="num">08</span> Muebles para el Hogar</li>
-                        <li><span class="num">09</span> Muebles para Oficina</li>
-                        <li><span class="num">10</span> Salas y Comedores</li>
-                        <li><span class="num">11</span> Muebles de Lujo</li>
-                        <li><span class="num">12</span> Decoración de Hogar</li>
-                        <li><span class="num">13</span> Muebles a Medida</li>
-                        <li><span class="num">14</span> Ofertas en Muebles</li>
-                        <li><span class="num">15</span> Mueblería Online</li>
+                        <li><span class="num">01</span> Financiera de Beneficios</li>
+                        <li><span class="num">02</span> Créditos y Financiamiento</li>
+                        <li><span class="num">03</span> Préstamos para Todos</li>
+                        <li><span class="num">04</span> Asesoría Financiera</li>
+                        <li><span class="num">05</span> Créditos Hipotecarios</li>
+                        <li><span class="num">06</span> Préstamos Personales</li>
+                        <li><span class="num">07</span> Financiamiento de Autos</li>
+                        <li><span class="num">08</span> Créditos Empresariales</li>
+                        <li><span class="num">09</span> Consolidación de Deudas</li>
+                        <li><span class="num">10</span> Mejores Tasas</li>
+                        <li><span class="num">11</span> Aprobación Rápida</li>
+                        <li><span class="num">12</span> Financiamiento Flexible</li>
+                        <li><span class="num">13</span> Créditos sin Complicaciones</li>
+                        <li><span class="num">14</span> Tu Proyecto Hecho Realidad</li>
+                        <li><span class="num">15</span> Beneficios para Todos</li>
                     </ul>
                 </div>
 
@@ -1267,10 +1342,10 @@
                     <div class="ads-block ads-desc-block reveal" style="margin-bottom:30px;">
                         <h3>📝 4 Descripciones para Google Ads <span class="badge">H2</span></h3>
                         <ul>
-                            <li><span class="badge-desc">D1</span> Muebles de alta calidad con financiamiento flexible. Transforme su hogar con estilo y sin preocupaciones.</li>
-                            <li><span class="badge-desc">D2</span> Descubra nuestra colección de muebles modernos y clásicos. Financiamiento accesible para todos.</li>
-                            <li><span class="badge-desc">D3</span> Muebles para hogar y oficina con los mejores precios y facilidades de pago. Calidad garantizada.</li>
-                            <li><span class="badge-desc">D4</span> Convierta su espacio en un lugar único con nuestros muebles de diseño. Financiamiento sin complicaciones.</li>
+                            <li><span class="badge-desc">D1</span> Asesoría financiera y soluciones de crédito para todo tipo de necesidades. ¡Financiamiento sin complicaciones!</li>
+                            <li><span class="badge-desc">D2</span> Créditos hipotecarios, personales y empresariales con las mejores tasas. ¡Haga realidad sus proyectos hoy!</li>
+                            <li><span class="badge-desc">D3</span> Financiamiento flexible y aprobación rápida. Acompañamiento personalizado en cada paso del proceso.</li>
+                            <li><span class="badge-desc">D4</span> Soluciones financieras adaptadas a sus necesidades. Consolidación de deudas y asesoría profesional.</li>
                         </ul>
                     </div>
 
@@ -1278,16 +1353,16 @@
                     <div class="ads-block reveal">
                         <h3>🔑 10 Palabras Clave para Google Ads <span class="badge">KW</span></h3>
                         <div class="keywords">
-                            <span class="keyword">muebles con financiamiento</span>
-                            <span class="keyword">compra de muebles</span>
-                            <span class="keyword">muebles de calidad</span>
-                            <span class="keyword">financiamiento para muebles</span>
-                            <span class="keyword">muebles modernos</span>
-                            <span class="keyword">diseño de interiores</span>
-                            <span class="keyword">muebles para el hogar</span>
-                            <span class="keyword">muebles para oficina</span>
-                            <span class="keyword">mueblería online</span>
-                            <span class="keyword">muebles a medida</span>
+                            <span class="keyword">créditos personales</span>
+                            <span class="keyword">financiamiento hipotecario</span>
+                            <span class="keyword">préstamos para autos</span>
+                            <span class="keyword">créditos empresariales</span>
+                            <span class="keyword">asesoría financiera</span>
+                            <span class="keyword">consolidación de deudas</span>
+                            <span class="keyword">mejores tasas de interés</span>
+                            <span class="keyword">financiamiento flexible</span>
+                            <span class="keyword">créditos sin complicaciones</span>
+                            <span class="keyword">solicitar crédito</span>
                         </div>
                     </div>
                 </div>
@@ -1305,47 +1380,47 @@
             <div class="faq-list" style="margin-top:40px;">
                 <div class="faq-item reveal">
                     <button class="faq-question">
-                        ¿Qué tipos de muebles ofrecen?
+                        ¿Qué tipos de crédito ofrecen?
                         <span class="arrow">▼</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Ofrecemos salas, recámaras, comedores, muebles para oficina, muebles de almacenamiento y diseños a medida para todos los espacios.</p>
+                        <p>Ofrecemos créditos hipotecarios, automotrices, personales, empresariales y consolidación de deudas, además de asesoría financiera personalizada.</p>
                     </div>
                 </div>
                 <div class="faq-item reveal">
                     <button class="faq-question">
-                        ¿Cómo funciona el financiamiento?
+                        ¿Cómo funciona el proceso de solicitud?
                         <span class="arrow">▼</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Ofrecemos planes de financiamiento flexibles con plazos adaptados a sus necesidades. Puede pagar en cuotas sin intereses o con tasas preferenciales. Las aprobaciones están sujetas a la evaluación de cada entidad financiera.</p>
+                        <p>El proceso incluye una consulta inicial, análisis de su perfil financiero, selección de la mejor opción y acompañamiento en la aprobación con la entidad bancaria.</p>
                     </div>
                 </div>
                 <div class="faq-item reveal">
                     <button class="faq-question">
-                        ¿Hacen entregas a domicilio?
+                        ¿Trabajan con todas las entidades bancarias?
                         <span class="arrow">▼</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Sí, realizamos entregas a domicilio en todo el territorio. Contamos con servicio de instalación y ensamblaje de los muebles.</p>
+                        <p>Trabajamos con múltiples entidades bancarias autorizadas para ofrecerle las mejores condiciones y opciones de financiamiento del mercado.</p>
                     </div>
                 </div>
                 <div class="faq-item reveal">
                     <button class="faq-question">
-                        ¿Ofrecen garantía en sus productos?
+                        ¿Cuánto tiempo toma la aprobación de un crédito?
                         <span class="arrow">▼</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Todos nuestros productos cuentan con garantía contra defectos de fabricación. Además, ofrecemos servicio postventa para asegurar su satisfacción.</p>
+                        <p>Los tiempos de aprobación varían según la entidad y el tipo de crédito. En promedio, la respuesta se obtiene entre 24 y 72 horas hábiles.</p>
                     </div>
                 </div>
                 <div class="faq-item reveal">
                     <button class="faq-question">
-                        ¿Puedo personalizar mis muebles?
+                        ¿Cuál es el costo de la asesoría?
                         <span class="arrow">▼</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Sí, ofrecemos servicios de diseño a medida. Puede elegir materiales, colores y dimensiones para crear muebles únicos y adaptados a sus necesidades.</p>
+                        <p>Nuestra asesoría inicial es completamente gratuita. Solo cobramos honorarios por la gestión y acompañamiento durante el proceso de solicitud.</p>
                     </div>
                 </div>
             </div>
@@ -1358,22 +1433,25 @@
             <div class="text-center reveal">
                 <span class="section-tag">Contacto</span>
                 <h2>Hablemos de su <span class="text-accent">proyecto</span></h2>
-                <p style="max-width:640px;margin:12px auto 0;color:#5a5a6a;">Estamos listos para ayudarle a encontrar los muebles perfectos y el financiamiento adecuado.</p>
+                <p style="max-width:640px;margin:12px auto 0;color:#5a5a6a;">Estamos listos para ayudarle a encontrar el financiamiento que necesita para hacer realidad sus proyectos.</p>
             </div>
 
             <!-- ===== AVISO LEGAL EN CONTACTO ===== -->
             <div class="legal-notice reveal" style="margin-bottom:30px;">
                 <h4>⚠️ Aviso Importante</h4>
-                <p><strong>Mueblería AD Financiera</strong> es una empresa de asesoría independiente. No somos un banco ni representamos a ninguna entidad bancaria oficial. Los productos y servicios financieros son ofrecidos exclusivamente por las entidades bancarias autorizadas. Las aprobaciones de crédito están sujetas a la evaluación de cada entidad financiera.</p>
+                <p><strong>Financiera de Beneficios para Todos</strong> es una empresa de asesoría independiente. No somos un banco ni representamos a ninguna entidad bancaria oficial. Los productos y servicios financieros son ofrecidos exclusivamente por las entidades bancarias autorizadas. Las aprobaciones de crédito están sujetas a la evaluación de cada entidad financiera.</p>
             </div>
 
             <div class="contact-grid" style="margin-top:0;">
                 <div class="contact-info reveal">
                     <h3>Información de contacto</h3>
-                    <p><strong>📍 Dirección:</strong> Calle Principal #123, Centro</p>
+                    <p><strong>📍 Dirección:</strong> Av. Principal #456, Centro</p>
                     <p><strong>📞 Celular / WhatsApp:</strong> <a href="https://wa.me/573217657995" style="color:var(--color-accent);font-weight:600;">+57 321 765-7995</a></p>
-                    <p><strong>✉️ Correo electrónico:</strong> <a href="mailto:info@muebleriaad.com" style="color:var(--color-accent);font-weight:600;">info@muebleriaad.com</a></p>
-                    <p style="margin-top:20px;font-size:0.9rem;color:#5a5a6a;">En Mueblería AD Financiera valoramos su tiempo y su confianza. Respondemos en menos de 24 horas.</p>
+                    <p><strong>✉️ Correo electrónico:</strong> <a href="mailto:info@financierabeneficios.com" style="color:var(--color-accent);font-weight:600;">info@financierabeneficios.com</a></p>
+                    <div class="campaign-id">
+                        🏷️ ID de Campaña: <strong>ID-8382-5840-6572</strong>
+                    </div>
+                    <p style="margin-top:20px;font-size:0.9rem;color:#5a5a6a;">En Financiera de Beneficios para Todos valoramos su tiempo y su confianza. Respondemos en menos de 24 horas.</p>
                 </div>
                 <div class="contact-form reveal">
                     <form id="contactForm">
@@ -1390,6 +1468,18 @@
                             <input type="tel" id="telefono" placeholder="Su número de teléfono">
                         </div>
                         <div class="form-group">
+                            <label for="tipo_credito">Tipo de crédito de interés</label>
+                            <select id="tipo_credito">
+                                <option value="">Seleccione una opción</option>
+                                <option value="hipotecario">Hipotecario</option>
+                                <option value="automotriz">Automotriz</option>
+                                <option value="personal">Personal</option>
+                                <option value="empresarial">Empresarial</option>
+                                <option value="consolidacion">Consolidación de deudas</option>
+                                <option value="asesoria">Asesoría financiera</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
                             <label for="mensaje">Mensaje</label>
                             <textarea id="mensaje" rows="4" placeholder="Cuéntenos sobre su proyecto o consulta..." required></textarea>
                         </div>
@@ -1399,6 +1489,7 @@
                                 <label for="terminos" style="font-weight:400;">Acepto los <a href="#terminos" style="color:var(--color-accent);font-weight:600;">Términos y condiciones</a> y la <a href="#privacidad" style="color:var(--color-accent);font-weight:600;">Política de privacidad</a></label>
                             </div>
                         </div>
+                        <input type="hidden" name="campaign_id" value="ID-8382-5840-6572">
                         <button type="submit" class="btn" style="width:100%;justify-content:center;">Enviar mensaje</button>
                     </form>
                 </div>
@@ -1411,31 +1502,31 @@
         <div class="container">
             <div class="footer-grid">
                 <div>
-                    <h3 style="font-family:var(--font-heading);font-size:1.6rem;">Mueblería <span style="color:var(--color-accent);">AD</span> Financiera</h3>
-                    <p style="color:rgba(245,240,232,0.6);margin-top:12px;">Muebles de alta calidad con financiamiento flexible. Transformamos espacios y hacemos realidad sus sueños.</p>
+                    <h3 style="font-family:var(--font-heading);font-size:1.6rem;">Financiera <span style="color:var(--color-accent);">Beneficios</span></h3>
+                    <p style="color:rgba(234,234,234,0.6);margin-top:12px;">Soluciones de financiamiento y asesoría para todos. Hacemos realidad sus proyectos con transparencia y confianza.</p>
                     <div style="margin-top:16px;display:flex;gap:16px;">
-                        <a href="#" style="color:rgba(245,240,232,0.6);transition:var(--transition-smooth);">LinkedIn</a>
-                        <a href="#" style="color:rgba(245,240,232,0.6);transition:var(--transition-smooth);">Twitter</a>
-                        <a href="#" style="color:rgba(245,240,232,0.6);transition:var(--transition-smooth);">Instagram</a>
-                        <a href="#" style="color:rgba(245,240,232,0.6);transition:var(--transition-smooth);">Facebook</a>
+                        <a href="#" style="color:rgba(234,234,234,0.6);transition:var(--transition-smooth);">LinkedIn</a>
+                        <a href="#" style="color:rgba(234,234,234,0.6);transition:var(--transition-smooth);">Twitter</a>
+                        <a href="#" style="color:rgba(234,234,234,0.6);transition:var(--transition-smooth);">Instagram</a>
+                        <a href="#" style="color:rgba(234,234,234,0.6);transition:var(--transition-smooth);">Facebook</a>
                     </div>
                 </div>
                 <div>
                     <h4>Enlaces rápidos</h4>
                     <ul>
                         <li><a href="#nosotros">Nosotros</a></li>
-                        <li><a href="#servicios">Productos</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
                         <li><a href="#proceso">Proceso</a></li>
                         <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4>Productos</h4>
+                    <h4>Servicios</h4>
                     <ul>
-                        <li><a href="#servicios">Salas</a></li>
-                        <li><a href="#servicios">Recámaras</a></li>
-                        <li><a href="#servicios">Comedores</a></li>
-                        <li><a href="#servicios">Oficinas</a></li>
+                        <li><a href="#servicios">Créditos hipotecarios</a></li>
+                        <li><a href="#servicios">Créditos personales</a></li>
+                        <li><a href="#servicios">Créditos empresariales</a></li>
+                        <li><a href="#servicios">Asesoría financiera</a></li>
                     </ul>
                 </div>
                 <div>
@@ -1448,10 +1539,11 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <span>&copy; 2025 Mueblería AD Financiera. Todos los derechos reservados.</span>
+                <span>&copy; 2025 Financiera de Beneficios para Todos. Todos los derechos reservados.</span>
+                <span class="campaign-id">ID Campaña: ID-8382-5840-6572</span>
             </div>
             <div class="footer-legal">
-                <strong>⚠️ Aviso Importante:</strong> Mueblería AD Financiera es una empresa de asesoría independiente. No somos un banco ni representamos a ninguna entidad bancaria oficial. Los productos y servicios financieros son ofrecidos exclusivamente por las entidades bancarias autorizadas. Las aprobaciones de crédito están sujetas a la evaluación de cada entidad financiera.
+                <strong>⚠️ Aviso Importante:</strong> Financiera de Beneficios para Todos es una empresa de asesoría independiente. No somos un banco ni representamos a ninguna entidad bancaria oficial. Los productos y servicios financieros son ofrecidos exclusivamente por las entidades bancarias autorizadas. Las aprobaciones de crédito están sujetas a la evaluación de cada entidad financiera.
             </div>
         </div>
     </footer>
@@ -1462,7 +1554,7 @@
             <p>Utilizamos cookies para mejorar su experiencia en nuestro sitio web. Al continuar navegando, acepta nuestra <a href="#cookies" style="color:var(--color-accent);">política de cookies</a>.</p>
             <div class="actions">
                 <button class="btn btn-sm btn-white" id="acceptCookies">Aceptar</button>
-                <button class="btn btn-sm btn-outline" id="rejectCookies" style="border-color:rgba(255,255,255,0.3);color:rgba(245,240,232,0.7);">Rechazar</button>
+                <button class="btn btn-sm btn-outline" id="rejectCookies" style="border-color:rgba(255,255,255,0.3);color:rgba(234,234,234,0.7);">Rechazar</button>
             </div>
         </div>
     </div>
@@ -1486,19 +1578,20 @@
         // CONFIGURACIÓN
         // ============================================================
         const CONFIG = {
-            empresa: 'Mueblería AD Financiera',
-            rubro: 'Mueblería financiera para ti',
-            direccion: 'Calle Principal #123, Centro',
+            empresa: 'Financiera de Beneficios para Todos',
+            rubro: 'Todo sobre financiamiento',
+            direccion: 'Av. Principal #456, Centro',
             whatsapp: '+573217657995',
-            correo: 'info@muebleriaad.com',
-            mision: 'Ofrecer muebles de alta calidad con opciones de financiamiento accesibles, transformando espacios y mejorando la calidad de vida de nuestros clientes con estilo, funcionalidad y confianza.',
-            vision: 'Ser la mueblería financiera de referencia, reconocida por la calidad de sus productos, su innovación en diseño y sus soluciones de financiamiento que hacen posible el hogar soñado para todos.',
+            correo: 'info@financierabeneficios.com',
+            campaignId: 'ID-8382-5840-6572',
+            mision: 'Brindar asesoría financiera de excelencia, ofreciendo soluciones de crédito y financiamiento que se adapten a las necesidades de cada cliente, con transparencia y compromiso.',
+            vision: 'Ser la empresa de asesoría financiera de referencia, reconocida por su calidad, transparencia y por hacer posible los sueños de nuestros clientes a través del financiamiento.',
             historia: [
-                { year: 2016, title: 'Fundación de Mueblería AD Financiera', desc: 'Nace la empresa con la visión de ofrecer muebles de calidad con financiamiento accesible.' },
-                { year: 2018, title: 'Expansión del portafolio', desc: 'Incorporamos líneas de muebles para oficina y diseño de interiores, ampliando nuestra oferta de valor.' },
-                { year: 2020, title: 'Digitalización', desc: 'Implementamos plataformas digitales para ventas y financiamiento, mejorando la experiencia de nuestros clientes.' },
-                { year: 2023, title: 'Reconocimiento sectorial', desc: 'Recibimos el premio a la Excelencia en Muebles y Financiamiento, destacándonos como referentes en el sector.' },
-                { year: 2025, title: 'Expansión internacional', desc: 'Llevamos nuestra experiencia a nuevos mercados, ofreciendo muebles de calidad a nivel global.' }
+                { year: 2018, title: 'Fundación de Financiera de Beneficios', desc: 'Nace la empresa con la visión de ofrecer asesoría financiera accesible para todos.' },
+                { year: 2020, title: 'Expansión de servicios', desc: 'Incorporamos créditos hipotecarios, automotrices y personales, ampliando nuestra oferta.' },
+                { year: 2022, title: 'Digitalización', desc: 'Implementamos plataformas digitales para solicitudes de crédito y seguimiento.' },
+                { year: 2024, title: 'Reconocimiento sectorial', desc: 'Recibimos el premio a la Excelencia en Asesoría Financiera.' },
+                { year: 2025, title: 'Expansión internacional', desc: 'Llevamos nuestra experiencia a nuevos mercados internacionales.' }
             ]
         };
 
@@ -1578,6 +1671,18 @@
             });
         }, { threshold: 0.3 });
         counters.forEach(el => counterObserver.observe(el));
+
+        // ============================================================
+        // COPY ADS.TXT
+        // ============================================================
+        document.getElementById('copyAdsTxt')?.addEventListener('click', function() {
+            const text = 'google.com, pub-6766480973419025, DIRECT, f08c47fec0942fa0';
+            navigator.clipboard.writeText(text).then(() => {
+                const original = this.textContent;
+                this.textContent = '✅ ¡Copiado!';
+                setTimeout(() => { this.textContent = original; }, 2000);
+            });
+        });
 
         // ============================================================
         // FAQ ACORDEÓN
